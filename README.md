@@ -35,9 +35,6 @@ Gunakan [The Movie Database](https://developer.themoviedb.org/docs/getting-start
     - Penghapusan ulasan harus terefleksi dalam data yang sudah disimpan di Web Storage (LocalStorage) sehingga data akan selalu sinkron.
 5. **Desain Responsif:**
     - Pastikan antarmuka pengguna responsif dan dapat digunakan di berbagai perangkat (desktop, tablet, mobile).
-6. **Linting** 
-    - Gunakan sistem linter seperti ESLint atau Biome agar konsistensi gaya penulisan kode terjaga.
-    - Pastikan untuk menyesuaikan kode dengan rule yang telah di tetapkan dalam konfigurasi linter sehingga tidak ada lagi error dalam linting saat proyek sedang diperiksa.
 
 ## **Note**
 
@@ -48,25 +45,12 @@ Sertakan informasi tentang endpoint TMDb API yang digunakan dalam aplikasi front
 - **Struktur Proyek**  
 Susun proyek dengan baik agar mudah dipahami oleh pengembang lain.
 
-## **Contoh Struktur Proyek**
-
-
-- **`src/`** (Menampung source code)
-    - **`components/`** (Komponen UI)
-    - **`pages/`** (Halaman aplikasi)
-    - **`api/`** (Fungsi untuk berinteraksi dengan REST API)
-- **`public/`** (File statis seperti gambar dan favicon)
-- **`README.md`** (Dokumentasi proyek)
-
-Struktur diatas hanya ada sebagai gambaran basis dari struktur proyek yang rapih, jadi calon anggota bisa mengembangkan atau menggunakan struktur proyek lain yang rapih dan terstruktur.
-
 ## **Kriteria Penilaian**
 
 1. **Fungsionalitas**  
 Apakah semua fitur berfungsi sesuai dengan spesifikasi / task?
 2. **Kualitas Kode**  
 Apakah kode terstruktur dengan baik dan mengikuti best practices?
-
 3. **Desain UI/UX**  
 Seberapa baik antarmuka pengguna dalam hal estetika dan kegunaan?
 4. **Responsivitas**  
